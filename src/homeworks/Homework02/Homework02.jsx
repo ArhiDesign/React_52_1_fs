@@ -6,9 +6,11 @@ function Homework02() {
   return (
     <div className="homework02-profile">
         <ProfileCard/>
+        <ProfileCard/>
+        <ProfileCard/>
+      {/*<Button />
       <Button />
-      <Button />
-      <Button />
+      <Button />*/}
     </div>
   );
 }

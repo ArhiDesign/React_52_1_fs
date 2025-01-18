@@ -11,7 +11,7 @@ function App() {
      {/* <Button />
       <Button />
       <Button />*/}
-      <Lesson02/>
+      {/*<Lesson02/>*/}
       <Homework02/>
     </div>
   );
