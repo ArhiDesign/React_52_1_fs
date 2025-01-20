@@ -1,0 +1,35 @@
+.input-container {
+  width: 470px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  opacity: 1;
+}
+
+.input-label {
+  width: 400px;
+  height: 24px;
+  font: Lato;
+  font-size: 16px;
+  font-weight: 470px;
+  line-height: 24px;
+  text-align: left;
+  color: #6f6f6f;
+}
+
+.input-field {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #1f27f5;
+  box-shadow: 0 0 5px rgba(31, 39, 245, 0.3);
+}

@@ -6,15 +6,15 @@ import "./styles.css";
 // }
 
 //деструктуризация - 2 вариант ()
-function Button({ name = "SEND" }) {
-  const buttonType = "submit";
+function Button({ name = "SEND" , type = "submit" }) {
+  //const buttonType = "submit";
   //console.log(props.name);
 
   //деструктуризация 1 вариант
   //const {name} = props;
 
   return (
-    <button className="main-button" type={buttonType}>
+    <button className="main-button" type={type}>
       {name}
     </button>
   );
