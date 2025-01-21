@@ -1,0 +1,11 @@
+.feedback-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .likes-count {
+    font-size: 70px;
+    color: blue;
+    font-weight: 500;
+  }
