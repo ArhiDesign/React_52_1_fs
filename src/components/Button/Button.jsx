@@ -6,7 +6,7 @@ import "./styles.css";
 // }
 
 //деструктуризация - 2 вариант ()
-function Button({ name = "SEND" , type = "submit" }) {
+function Button({ name = "SEND" , type = "submit" , onClick}) {
   //const buttonType = "submit";
   //console.log(props.name);
 
@@ -14,7 +14,7 @@ function Button({ name = "SEND" , type = "submit" }) {
   //const {name} = props;
 
   return (
-    <button className="main-button" type={type}>
+    <button className="main-button" type={type} onClick={onClick}>
       {name}
     </button>
   );
