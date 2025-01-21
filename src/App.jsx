@@ -9,6 +9,8 @@ import Lesson03 from "./lessons/Lesson03/Lesson03";
 
 //homeworks
 import Homework02 from "./homeworks/Homework02/Homework02";
+import Homework03 from "./homeworks/Homework03/Homework03";
+import Lesson04 from "./lessons/Lesson04/Lesson04";
 
 function App() {
   return (
@@ -17,8 +19,11 @@ function App() {
       <Button />
       <Button />*/}
       {/*<Lesson02/>*/}
-      <Homework02/>
+      {/*<Homework02/>*/}
       {/*<Lesson03 />*/}
+      {/*<Homework03/>*/}
+      {/* ---Topic: functions, hooks(useState) */}
+      <Lesson04/>
     </div>
   );
 }
