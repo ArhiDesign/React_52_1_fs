@@ -1,10 +1,14 @@
 import "./styles.css";
 
-function Product({productName, productPrice}) {
+function Product({productName='Unknown', productPrice}) {
   return (
     <div className="product-card-wrapper">
       <h3>{productName}</h3>
-      <div>{productPrice}</div>
+       {/* Пример тернарного оператора для скрытия элемента div, если цена не была передана */}
+       {/* {productPrice !== undefined ? <div>{productPrice} $</div> : null} */}
+      {/* Пример использования оператора условного рендеринга - && */}
+      {productPrice !== undefined && <div>{productPrice} $</div>}
+       
     </div>
   );
 }
