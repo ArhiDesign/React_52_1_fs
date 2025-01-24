@@ -14,6 +14,7 @@ import Homework02 from "./homeworks/Homework02/Homework02";
 import Homework03 from "./homeworks/Homework03/Homework03";
 import Homework04 from "./homeworks/Homework04/Homework04";
 import Homework04_01 from "./homeworks/Homework04_01/Homework04_01";
+import Homework05 from "./homeworks/Homework05/Homework05";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* ---Topic: map components */}
       {/*<Lesson05 />*/}
       {/*<Homework04_01/>*/}
+      <Homework05 />
     </div>
   );
 }
